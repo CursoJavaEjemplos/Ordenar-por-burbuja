@@ -7,6 +7,7 @@ public class BaseDatos {
    // private ArrayList<Float> listaNumeros =  null;
     public BaseDatos() {
         super();
+        listaNumeros.add(6.0f);
     }                
     public ArrayList<Float> leerMapaDesdeBaseDeDatos() {
         //leer desde una base de datos: Oracle, MySql, SQL. otras ...
